@@ -115,7 +115,9 @@ class FileReport {
             for (Map.Entry<Integer, Integer> curEntry : wordLength.entrySet()) {
                 // Ignore empty lines that were counted as words
                 if (curEntry.getKey() != 0) {
-                    writer.write("Number of " + curEntry.getKey() + " letter words: " + curEntry.getValue() + "\r\n");
+                    if (curEntry.getKey() == 1)
+                        writer.write("Number of " + curEntry.getKey() + " letter words: " + curEntry.getValue() + "\r\n");
+                    writer.write("Number of " + curEntry.getKey() + " letters words: " + curEntry.getValue() + "\r\n");
                 }
             }
         } catch (IOException e3) {

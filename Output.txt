@@ -20,3 +20,26 @@ Number of 10 letter words: 4
 Number of 11 letter words: 3
 Number of 12 letter words: 2
 Number of 13 letter words: 2
+
+Append New File Information
+Filename: TestFile.txt
+Number of lines: 13
+Number of characters (total): 894
+Number of letters: 698
+Number of figures: 22
+Number of other characters: 174
+Number of words: 161
+Number of 1 letter words: 7
+Number of 1 letters words: 7
+Number of 2 letters words: 31
+Number of 3 letters words: 36
+Number of 4 letters words: 22
+Number of 5 letters words: 14
+Number of 6 letters words: 17
+Number of 7 letters words: 16
+Number of 8 letters words: 5
+Number of 9 letters words: 1
+Number of 10 letters words: 4
+Number of 11 letters words: 3
+Number of 12 letters words: 2
+Number of 13 letters words: 2
