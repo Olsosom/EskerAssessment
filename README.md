@@ -8,20 +8,32 @@
  I was unable to creat a regular expression that would remove parantheses and single or double quotes without adding extra spaces to the words array. I was also unable to create one that would ignore empty lines. So word count will be off depending on how many lines are inbetween paragraphs. I attempted, instead of using .split(), to try a matching regular expression with Matcher, one that would only match only letters a-z, A-Z, but wasn't able to get it working as well as the one currently in the code. If I had more resources, like people to ask in person as opposed to just searching online for help, I believe I would have been able to create a regex robust enough for the intended purpose of this program.
 
  The paragraphs for TestFile were taken from: https://en.wikipedia.org/wiki/Cat
- I did remove (Felis catus) and round 7.3 and 4.8 to 7 and 3 respectively. I did so to provide a more accurate Output file given I had trouble with the regex.
+
+ I did remove (Felis catus) and round 7.3 and 4.8 to 7 and 4 respectively. I did so to provide a more accurate Output file given I had trouble with the regex.
 
  Example of report to generate:
 
 File name: D:\temp\file.txt
+
 Number of lines: 85
+
 Number of characters (total): 1441
+
 Number of letters: 782
+
 Number of figures: 17
+
 Number of other characters: 642
+
 Number of words: 195
+
 Number of 1 letter words: 56
+
 Number of 2 letters words: 27
+
 [...]
+
 Number of 16 letters words: 2
+
 Number of 19 letters words: 1
 
